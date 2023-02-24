@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "fclustering"
+version = "0.1.0"
+description = ""
+authors = ["koji-ono_exwzd <koji.ono@exwzd.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyro-ppl = "^1.8.4"
+pandas = "^1.5.3"
+plotly = "^5.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+pytest = "^7.2.1"
+isort = "^5.12.0"
+mypy = "^1.0.0"
+pyproject-flake8 = "^6.0.0.post1"
+scikit-learn = "^1.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
